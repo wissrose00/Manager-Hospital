@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="SpeakableTextPresentCheck"
+    android:background="@drawable/custom_wave">
+
+    <RelativeLayout
+        android:id="@+id/Rl1"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_normal"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/sz_normal110"
+                android:layout_height="@dimen/sz_normal110"
+                android:src="@drawable/logo"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:gravity="center"
+            android:id="@+id/rl2"
+            android:layout_below="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="@string/LOGIN"
+                android:textColor="@color/teal"
+                android:textSize="@dimen/txt_2xl"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl3"
+            android:layout_margin="@dimen/space_normal"
+            android:layout_below="@id/rl2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/ed1"
+                android:layout_width="@dimen/sz_medium350"
+                android:layout_height="@dimen/sz_tiny55"
+                android:layout_centerInParent="true"
+                android:background="@color/colorWhite"
+                android:hint="@string/username"
+                android:padding="@dimen/space_normal"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorGray"
+                tools:ignore="Autofill,TextFields" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl4"
+            android:layout_margin="@dimen/space_normal"
+            android:layout_below="@id/rl3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/ed2"
+                android:layout_width="@dimen/sz_medium350"
+                android:layout_height="@dimen/sz_tiny55"
+                android:layout_centerInParent="true"
+                android:background="@color/colorWhite"
+                android:hint="@string/password"
+                android:padding="@dimen/space_normal"
+                android:password="true"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorGray"
+                tools:ignore="Autofill,Deprecated,TextFields" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl5"
+            android:layout_below="@id/rl4"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/cb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/sz_tiny50"
+                android:layout_gravity="end"
+                android:layout_marginEnd="@dimen/space_normal"
+                android:text="@string/Showpass" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl6"
+            android:layout_margin="@dimen/space_normal"
+            android:layout_below="@id/rl5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="@dimen/sz_medium350"
+                android:layout_height="@dimen/sz_tiny55"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/space_normal"
+                android:layout_marginTop="@dimen/space_normal"
+                android:layout_marginEnd="@dimen/space_normal"
+                android:layout_marginBottom="@dimen/space_normal"
+                android:background="@drawable/custom_btn1"
+                android:padding="@dimen/space_normal"
+                android:text="@string/LOGINNOW"
+                android:textColor="@color/teal"
+                android:textSize="@dimen/txt_title1"
+                android:textStyle="bold"
+                app:backgroundTint="@null" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl7"
+            android:layout_margin="@dimen/space_normal"
+            android:layout_below="@id/rl6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="@dimen/sz_medium350"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/space_normal"
+                android:padding="@dimen/space_normal"
+                android:text="@string/Not_Account"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/txt_content"
+                app:backgroundTint="@color/white" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

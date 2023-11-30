@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/space_normal"
+    android:background="@color/white"
+    android:id="@+id/relative">
+
+    <!--Title-->
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal"
+        >
+        <!--Title-->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/sz_tiny50"
+            android:gravity="center"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/how_do_you_feel"
+                android:textSize="@dimen/txt_title1"
+                android:textColor="@color/white"
+                android:textAllCaps="true"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!--ListView-->
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_marginTop="@dimen/space_normal"
+        android:layout_below="@id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/lv2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/sz_medium450"/>
+
+    </RelativeLayout>
+
+    <!--Title - ImageButton-->
+    <RelativeLayout
+        android:layout_marginTop="@dimen/space_normal"
+        android:layout_below="@id/rl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <!--Title-->
+        <RelativeLayout
+            android:layout_marginTop="@dimen/space_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="@dimen/sz_medium350"
+                android:layout_height="wrap_content"
+                android:text="@string/Cancel"
+                android:textSize="@dimen/txt_content"
+                android:textColor="@color/white"
+                android:textAllCaps="true"
+                android:background="@drawable/custom_ripple2"
+                app:backgroundTint="@null" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/space_normal"
+    android:background="@color/white"
+    android:id="@+id/relative">
+
+    <!--Title-->
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal"
+        android:layout_marginBottom="@dimen/space_small"
+        >
+
+        <!--Title-->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/sz_tiny50">
+
+            <ImageButton
+                android:id="@+id/btn99"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_delete"
+                app:backgroundTint="@color/Candy_Apple_Red"
+                app:tint="@color/fab_icon"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!--Search-->
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_marginBottom="@dimen/space_normal"
+        android:layout_below="@id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/searchbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/ed1"
+                android:layout_width="@dimen/sz_medium350"
+                android:layout_height="@dimen/sz_tiny55"
+                android:layout_weight="1"
+                android:background="@drawable/custom_searchbar"
+                android:hint="@string/search"
+                android:inputType="none"
+                android:paddingStart="@dimen/space_medium"
+                android:paddingEnd="@dimen/space_normal"
+                android:textSize="@dimen/txt_title1" />
+
+            <ImageButton
+                android:id="@+id/btn1"
+                android:layout_width="@dimen/sz_small65"
+                android:layout_height="@dimen/sz_tiny55"
+                android:layout_weight="1"
+                android:background="@color/teal_200"
+                android:src="@drawable/ic_search32" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--ListView-->
+    <RelativeLayout
+        android:id="@+id/rl3"
+        android:layout_marginTop="@dimen/space_normal"
+        android:layout_below="@id/rl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/lv3"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/sz_medium500"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

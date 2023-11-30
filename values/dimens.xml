@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Start TextSize-->
+    <dimen name="txt_tiny">8sp</dimen>
+    <dimen name="txt_small">14sp</dimen>
+
+    <dimen name="txt_content">16sp</dimen>
+    <dimen name="txt_label">18sp</dimen>
+    <dimen name="txt_title1">20sp</dimen>
+    <dimen name="txt_title2">24sp</dimen>
+
+    <dimen name="txt_2xl">28sp</dimen>
+    <dimen name="txt_3xl">30sp</dimen>
+    <dimen name="txt_over">96sp</dimen>
+    <!--End TextSize-->
+
+    <!--Start Size uses for Layout, Button, EditText,...-->
+
+    <!--Dimens for Tiny-->
+    <dimen name="sz_tiny10">10dp</dimen>
+    <dimen name="sz_tiny15">15dp</dimen>
+    <dimen name="sz_tiny20">20dp</dimen>
+    <dimen name="sz_tiny25">25dp</dimen>
+    <dimen name="sz_tiny30">30dp</dimen>
+    <dimen name="sz_tiny35">35dp</dimen>
+    <dimen name="sz_tiny40">40dp</dimen>
+    <dimen name="sz_tiny45">45dp</dimen>
+    <dimen name="sz_tiny50">50dp</dimen>
+    <dimen name="sz_tiny55">55dp</dimen>
+    <!--End-->
+
+    <!--Dimens for Small-->
+    <dimen name="sz_small60">60dp</dimen>
+    <dimen name="sz_small65">65dp</dimen>
+    <dimen name="sz_small70">70dp</dimen>
+    <dimen name="sz_small75">75dp</dimen>
+    <dimen name="sz_small80">80dp</dimen>
+    <dimen name="sz_small85">85dp</dimen>
+    <dimen name="sz_small90">90dp</dimen>
+    <dimen name="sz_small95">95dp</dimen>
+    <dimen name="sz_small100">100dp</dimen>
+    <!--End-->
+
+    <!--Dimens for Normal-->
+    <dimen name="sz_normal110">110dp</dimen>
+    <dimen name="sz_normal120">120dp</dimen>
+    <dimen name="sz_normal130">130dp</dimen>
+    <dimen name="sz_normal140">140dp</dimen>
+    <dimen name="sz_normal150">150dp</dimen>
+    <dimen name="sz_normal160">160dp</dimen>
+    <dimen name="sz_normal170">170dp</dimen>
+    <dimen name="sz_normal180">180dp</dimen>
+    <dimen name="sz_normal190">190dp</dimen>
+    <dimen name="sz_normal200">200dp</dimen>
+    <!--End-->
+
+    <!--Dimens for Medium-->
+    <dimen name="sz_medium250">250dp</dimen>
+    <dimen name="sz_medium300">300dp</dimen>
+    <dimen name="sz_medium350">350dp</dimen>
+    <dimen name="sz_medium400">400dp</dimen>
+    <dimen name="sz_medium450">450dp</dimen>
+    <dimen name="sz_medium500">500dp</dimen>
+    <!--End-->
+
+    <!--Dimens for Large-->
+    <dimen name="sz_large600">600dp</dimen>
+    <dimen name="sz_large650">650dp</dimen>
+    <dimen name="sz_large700">700dp</dimen>
+    <dimen name="sz_large750">750dp</dimen>
+    <dimen name="sz_large800">800dp</dimen>
+    <dimen name="sz_large850">850dp</dimen>
+    <dimen name="sz_large900">900dp</dimen>
+    <dimen name="sz_large950">950dp</dimen>
+    <dimen name="sz_large1000">1000dp</dimen>
+    <!--End-->
+
+    <!--Dimens for Extra Large-->
+    <dimen name="sz_xl1200">1200dp</dimen>
+    <dimen name="sz_2xl1400">1400dp</dimen>
+    <dimen name="sz_3xl1600">1600dp</dimen>
+    <!--End-->
+
+    <!--End Size-->
+
+    <!--Dimens for Margin and Padding-->
+    <dimen name="space_tiny">2dp</dimen>
+    <dimen name="space_small">5dp</dimen>
+    <dimen name="space_normal">10dp</dimen>
+    <dimen name="space_medium">15dp</dimen>
+    <dimen name="space_large">20dp</dimen>
+    <dimen name="space_xl">25dp</dimen>
+    <dimen name="space_2xl">30dp</dimen>
+    <dimen name="space_3xl">40dp</dimen>
+    <dimen name="space_4xl">50dp</dimen>
+    <!--End Margin-->
+
+</resources>

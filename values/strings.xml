@@ -1,0 +1,150 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="TypographyEllipsis">
+
+    <string name="app_name">TNT</string>
+    <string name="navi_drawer_open">Open Navi</string>
+    <string name="navi_drawer_close">Close Navi</string>
+
+    <!--Login Form-->
+    <string name="welcomeback">Chào mừng trở lại</string>
+    <string name="username">Tài khoản</string>
+    <string name="password">Mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="LOGINNOW">ĐĂNG NHẬP NGAY</string>
+    <string name="LOGIN">ĐĂNG NHẬP</string>
+    <string name="Showpass">Hiện mật khẩu</string>
+    <string name="pls_full_input">Vui lòng nhập đầy đủ thông tin</string>
+    <string name="Not_Account">Chưa có tài khoàn? Liên hệ: 0917833552</string>
+    <string name="pls_username">Vui lòng nhập tài khoản</string>
+    <string name="pls_pass">Vui lòng nhập mật khẩu</string>
+    <string name="err_login">Thông tin tài khoản không đúng vui lòng kiểm tra lại!</string>
+
+    <!--Menu navi -->
+    <string name="home">Trang chủ</string>
+    <string name="schedule">Lịch làm việc</string>
+    <string name="patients">Danh sách bệnh nhân</string>
+    <string name="patient">Bệnh nhân</string>
+    <string name="presciptions">Danh sách toa thuốc</string>
+    <string name="his_exam">Lịch sử khám bệnh</string>
+    <string name="sicks">Kho bệnh</string>
+    <string name="medicinies">Kho thuốc</string>
+    <string name="inf4">Thông tin cá nhân</string>
+    <string name="changepass">Đổi mật khẩu</string>
+    <string name="logout">Đăng xuất</string>
+
+    <!--ChangePassword Form-->
+    <string name="passcurrent">Nhập mật khẩu hiện tại</string>
+    <string name="renewpass">Nhập lại mật khẩu mới</string>
+    <string name="newpass">Nhập mật khẩu mới</string>
+
+    <string name="pls_pass_new">Vui lòng nhập mật khẩu mới !!!</string>
+    <string name="pls_pass_cur">Vui lòng nhập mật khẩu hiện tại !!!</string>
+    <string name="pls_pass_renew">Vui lòng nhập lại mật khẩu mới !!!</string>
+    <string name="err_different_passcurr">Mật khẩu mới không được trùng với mật khẩu hiện tại !!!</string>
+    <string name="err_different_pass">Mật khẩu mới không trùng khớp !!!</string>
+
+    <string name="err">Có lỗi xảy ra!!!</string>
+    <string name="changepassok">Đổi mật khẩu thành công !!!</string>
+    <string name="changepasserr">Mật khẩu hiện tại không chính xác. Vui lòng kiểm tra lại !!!.</string>
+    <string name="changepassword">ĐỔI MẬT KHẨU</string>
+
+    <!--Schhedule  Form-->
+    <string name="morning">Sáng</string>
+    <string name="day">Ngày:</string>
+    <string name="room">Phòng:</string>
+    <string name="id">Mã số:</string>
+
+    <string name="fullname">Họ tên:</string>
+    <string name="doctor">Bác sĩ:</string>
+    <string name="pharmacist">Dược sĩ:</string>
+
+    <string name="cic">CCCD:</string>
+    <string name="age">Tuổi:</string>
+    <string name="sex">Giới tính:</string>
+    <string name="born">Năm sinh:</string>
+    <string name="phone">Điện thoại:</string>
+    <string name="address">Địa chỉ:</string>
+    <string name="resume">HỒ SƠ</string>
+    <string name="department">Khoa:</string>
+    <string name="position">Chức vụ:</string>
+    <string name="datestart">Ngày vào làm:</string>
+    <string name="dateend">Ngày kết thúc:</string>
+    <string name="insurance_id">BHYT:</string>
+    <string name="effectivedate">Ngày bắt đầu:</string>
+    <string name="expirationdate">Ngày hết hạn:</string>
+    <string name="search">Tìm kiếm</string>
+
+    <!--Sick-->
+    <string name="sick">Bệnh</string>
+    <string name="id_sick">Mã bệnh: </string>
+    <string name="name_sick">Tên bệnh: </string>
+    <string name="symptom">Triệu chứng: </string>
+    <string name="diagnose">Chẩn đoán: </string>
+    <string name="note">Ghi chú: </string>
+    <string name="examination_id">Mã phiếu: </string>
+    <string name="examination_title">Phiếu khám bệnh</string>
+
+
+    <!--Medicine-->
+    <string name="medicine">Thuốc</string>
+    <string name="title_medicine">Chi tiết thuốc</string>
+    <string name="id_medicine">Mã Thuốc</string>
+    <string name="name_medicine">Tên Thuốc </string>
+    <string name="production_date">Ngày Sản Xuất </string>
+    <string name="expiry_date">Ngày Hết Hạn </string>
+    <string name="Quantity">Số Lượng </string>
+    <string name="uses_medicine">Công Dụng </string>
+    <string name="Composition">Thành Phần </string>
+
+    <string name="Status">Trạng thái </string>
+    <string name="Save">Lưu </string>
+    <string name="Delete">Xoá </string>
+    <string name="active">Đang hoạt động</string>
+    <string name="inactive">Đã xóa</string>
+    <string name="afternoon">Chiều</string>
+    <string name="addok">Thêm thành công !!!</string>
+    <string name="adder">Thêm thất bại !!!</string>
+    <string name="delok">Xóa thành công !!!</string>
+    <string name="delerr">Xóa thất bại !!!</string>
+    <string name="editok">Cập nhật thành công !!!</string>
+    <string name="editerr">Cập nhật thất bại !!!</string>
+    <string name="logan">Tận Tâm - Nhanh Chóng - Tiến Bộ</string>
+    <string name="date_continute">Ngày tái khám</string>
+    <string name="nofi">Thông báo</string>
+    <string name="date_end_bhyt">Hạn sử dụng bảo hiểm y tế:</string>
+    <string name="backup">Khôi phục</string>
+    <string name="diff">Khác</string>
+    <string name="examination">Khám bệnh</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="different">Khác</string>
+    <string name="other">Triệu chứng khác...</string>
+    <string name="history">Lịch sử</string>
+    <string name="today">Hôm nay</string>
+    <string name="done">Đã phát</string>
+    <string name="prescription">Toa thuốc</string>
+    <string name="cancle">Hủy</string>
+    <string name="regexam">ĐĂNG KÝ KHÁM BỆNH</string>
+    <string name="app_logo">app_logo</string>
+    <string name="examination_today">Ca khám hôm nay</string>
+    <string name="sum_shift">Tổng số ca</string>
+    <string name="not_yet_exam">Chưa khám</string>
+    <string name="prescription_today">Toa thuốc hôm nay</string>
+    <string name="sum">Tổng</string>
+    <string name="not_yet_dispensing">Chưa phát</string>
+    <string name="therapeutic">Thuốc điều trị</string>
+    <string name="how_do_you_feel">Bạn cảm thấy như thế nào?</string>
+    <string name="register_slip">Phiếu đăng ký</string>
+    <string name="number">STT:</string>
+    <string name="Cancel">Huỷ</string>
+    <string name="register">Đăng ký</string>
+    <string name="delete">Xóa</string>
+    <string name="confdel">Bạn có chắc chắn muốn xóa ?</string>
+    <string name="yes">Đồng ý</string>
+    <string name="exam_slip">Phiếu khám bệnh</string>
+    <string name="confcancle">Bạn chắc chắn muốn hủy đăng kí ?</string>
+    <string name="uses">Cách dùng:</string>
+    <string name="view">Xem bệnh án</string>
+    <string name="call">Có thể vào</string>
+
+    <!--ADD - EDIT - DELETE -->
+</resources>
